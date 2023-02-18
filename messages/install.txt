@@ -1,0 +1,32 @@
+Switch Word
+===========
+A Sublime Text plugin that switches words according to the lists that you define.
+
+How to Use
+----------
+1. Key Bindings
+
+No default key bindings. Define your own.
+
+- Recommended Key Bindings
+
+    - Windows/Linux: Ctrl + K, Ctrl + \
+
+    - macOS: Cmd + K, Ctrl + \
+
+
+2. Command Palette
+
+Switch Word
+
+3. Main Menu
+
+Edit > Switch Word
+
+Author
+------
+Aaron Fu Lei
+
+License
+-------
+MIT
