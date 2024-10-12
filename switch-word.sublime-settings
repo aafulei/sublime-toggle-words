@@ -1,7 +1,0 @@
-{
-    "word_lists": [
-        ["true", "false"],
-        ["True", "False"],
-        ["TRUE", "FALSE"]
-    ]
-}

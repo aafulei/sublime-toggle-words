@@ -1,6 +1,6 @@
 [
     {
-        "command": "switch_word",
-        "caption": "Switch Word"
+        "command": "toggle_word",
+        "caption": "Toggle Word"
     }
 ]

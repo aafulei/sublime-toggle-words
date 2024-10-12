@@ -4,8 +4,8 @@
         "children":
         [
             {
-                "caption": "Switch Word",
-                "command": "switch_word"
+                "caption": "Toggle Word",
+                "command": "toggle_word"
             }
         ]
     },
@@ -21,15 +21,15 @@
                 "children":
                 [
                     {
-                        "caption": "Switch Word",
+                        "caption": "Toggle Words",
                         "children":
                         [
                             {
                                 "caption": "Settings",
                                 "command": "edit_settings",
                                 "args": {
-                                    "base_file": "${packages}/sublime-switch-word/switch-word.sublime-settings",
-                                    "user_file": "${packages}/User/switch-word.sublime-settings",
+                                    "base_file": "${packages}/sublime-toggle-words/ToggleWords.sublime-settings",
+                                    "user_file": "${packages}/User/ToggleWords.sublime-settings",
                                     "default": "{\n\t$0\n}\n",
                                 }
                             },
@@ -37,7 +37,7 @@
                                 "caption": "Key Bindings",
                                 "command": "edit_settings",
                                 "args": {
-                                    "base_file": "${packages}/sublime-switch-word/Default ($platform).sublime-keymap",
+                                    "base_file": "${packages}/sublime-toggle-words/Default.sublime-keymap",
                                     "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
                                     "default": "[\n\t$0\n]\n",
                                 }
@@ -47,7 +47,7 @@
                                 "caption": "README",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/sublime-switch-word/messages/install.txt"
+                                    "file": "${packages}/sublime-toggle-words/messages/install.txt"
                                 }
                             },
                         ]
